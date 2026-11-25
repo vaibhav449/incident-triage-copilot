@@ -17,7 +17,14 @@ This is an NLP course project at IIIT Raichur.
 | any module, schema, metric or data format | `docs/01-master-architecture.md` (read the relevant section, not the whole file) |
 | who owns what, the weekly plan, gates, anti-leakage rules | `docs/02-work-distribution.md` |
 
-**Status (2026-11-25):** design docs only. The repo skeleton (`pyproject.toml`, `Makefile`, `docker-compose.yml`, CI) is Member 1's Week-1 task. Until it lands, the commands below fail. Say so rather than inventing substitutes. Whoever changes a command updates this file in the same PR.
+**Status (2026-11-25):** the repo skeleton is in place:
+- `pyproject.toml` + `uv.lock`
+- `Makefile`
+- `docker-compose.yml` (Postgres only)
+- CI
+- one empty package per module under `triage/`
+
+There is no module code yet. `make demo` arrives at Gate 4. Whoever changes a command updates this file in the same PR.
 
 ## Tech stack
 
@@ -54,7 +61,7 @@ make check                                     # = the three lint/test commands 
 make demo                                      # full stack: ingest demo scenarios, build KB, open the UI
 ```
 
-If `make check` doesn't exist yet but `pyproject.toml` does, run the three `uv run` lint/test commands directly.
+`make help` lists every target, and `make db-up` / `make dev-api` / `make dev-ui` wrap the run commands above. Python 3.11 is pinned in `.python-version`; uv downloads it automatically.
 
 ## Who owns what
 
@@ -86,6 +93,7 @@ Work inside your own area. Names follow `docs/02-work-distribution.md` §1. Tell
   - Stay inside the current member's area (table above).
   - If a task needs edits in a teammate's area or a shared file, stop and list the files and the reason before editing.
   - Prefer adding a new file or function over rewriting a shared one.
+  - **CLI commands:** never edit `triage/cli.py` to add one. Create `triage/<your_package>/cli.py` with a `register(app)` function and it is discovered automatically (example in the `triage/cli.py` docstring).
 - **No new dependencies without confirmation.** First state the package, why it's needed, and the alternative you considered, then wait for an explicit yes.
   - Add with `uv add <pkg>` (or `uv add --dev <pkg>`). This updates `pyproject.toml` and `uv.lock` together.
   - Never hand-edit `uv.lock`.
