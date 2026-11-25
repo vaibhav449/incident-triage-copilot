@@ -1,0 +1,62 @@
+# ───────────── OS & editors ─────────────
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# ───────────── Secrets & environment ─────────────
+# Every .env variant is ignored; only the template is tracked.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ───────────── Python / uv ─────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+.cache/
+
+# ───────────── Project data & generated outputs (docs/01-master-architecture.md §7.2) ─────────────
+# Indexes, model checkpoints, Drain3 state, stage + LLM caches: rebuilt or downloaded, never committed
+artifacts/
+# Eval outputs: commit only selected runs, deliberately, with `git add -f runs/<run_id>`
+runs/*
+!runs/.gitkeep
+# Generated FaultLab logs and soak-run training windows (shared via GitHub release assets)
+data/scenarios/*/logs/
+data/train/
+*.log.zst
+# Downloaded public datasets (Loghub-2.0, RCAEval)
+data/raw/
+data/external/
+# Stray large binaries
+*.faiss
+*.safetensors
+*.pt
+*.onnx
+
+# ───────────── Claude Code: personal files stay local ─────────────
+# CLAUDE.md and .claude/commands/ ARE tracked (shared team context).
+CLAUDE.local.md
+.claude/settings.local.json
