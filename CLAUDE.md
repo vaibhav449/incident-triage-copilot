@@ -48,6 +48,7 @@ cp .env.example .env                           # first time only, then fill in v
 
 # run (dev)
 docker compose up -d postgres                  # database
+make db-migrate                                # create DB roles + apply migrations (idempotent)
 uv run uvicorn triage.api.main:app --reload    # API  → http://localhost:8000/docs
 uv run streamlit run ui/app.py                 # UI   → http://localhost:8501
 uv run triage --help                           # CLI: ingest, run, eval, kb build, split …
