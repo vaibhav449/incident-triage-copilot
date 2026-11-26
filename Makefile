@@ -1,5 +1,8 @@
 # Team entry points. `make check` must pass before every /ship.
-.PHONY: help install check lint test db-up db-down dev-api dev-ui demo
+.PHONY: help install check lint test db-up db-down db-migrate db-status dev-api dev-ui demo
+
+# Load .env when it exists; otherwise the code falls back to the .env.example defaults.
+UV_RUN := uv run $(if $(wildcard .env),--env-file .env)
 
 help:            ## list targets
 	@grep -E '^[a-z-]+:.*##' $(MAKEFILE_LIST) | awk -F':.*## ' '{printf "  %-10s %s\n", $$1, $$2}'
@@ -13,14 +16,20 @@ lint:            ## ruff lint and format check (never rewrites files)
 	uv run ruff check .
 	uv run ruff format --check .
 
-test:            ## run the test suite
-	uv run pytest -q
+test:            ## run the test suite (DB tests skip if Postgres is down)
+	$(UV_RUN) pytest -q
 
 db-up:           ## start PostgreSQL 16 in Docker
 	docker compose up -d postgres
 
 db-down:         ## stop the database (data volume is kept)
 	docker compose down
+
+db-migrate:      ## create/update DB roles and apply pending migrations
+	$(UV_RUN) triage db migrate
+
+db-status:       ## show which migrations are applied
+	$(UV_RUN) triage db status
 
 dev-api:         ## API dev server → http://localhost:8000/docs
 	uv run uvicorn triage.api.main:app --reload

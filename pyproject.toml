@@ -7,6 +7,7 @@ requires-python = ">=3.11"
 # in their own PR, after stating why (see CLAUDE.md, vibe-coding guardrails).
 dependencies = [
     "fastapi>=0.110",
+    "psycopg[binary]>=3.2",
     "pydantic>=2.7",
     "streamlit>=1.35",
     "typer>=0.12",
