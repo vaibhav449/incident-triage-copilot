@@ -35,5 +35,37 @@ def show_status() -> None:
         typer.echo(f"{version:<20} {'applied' if applied else 'PENDING'}")
 
 
+def ingest(
+    scenarios: list[str] = typer.Argument(..., help="Scenario ids or scenario folders."),
+    dry_run: bool = typer.Option(False, "--dry-run", help="Parse only; don't touch the DB."),
+) -> None:
+    """Parse scenario logs (adapters, redaction, Drain3) and bulk-load them into Postgres."""
+    import time
+
+    from triage.ingest.load import ingest_scenario, parse_scenario, report
+
+    for ref in scenarios:
+        try:
+            if dry_run:
+                started = time.perf_counter()
+                rep = report(parse_scenario(ref), 0, time.perf_counter() - started)
+            else:
+                rep = ingest_scenario(ref)
+        except FileNotFoundError as exc:
+            typer.echo(str(exc), err=True)
+            raise typer.Exit(1) from exc
+        except psycopg.OperationalError as exc:
+            typer.echo(f"Cannot reach Postgres: {exc}\nTry `make db-up db-migrate`.", err=True)
+            raise typer.Exit(1) from exc
+        new = "" if dry_run else f" ({rep.new_templates} new)"
+        typer.echo(
+            f"{rep.scenario_id}: {rep.files} files, {rep.source_lines} lines -> "
+            f"{rep.records} records, {rep.templates} templates{new}, "
+            f"{rep.continuation_lines} continuation, {rep.unparsed_lines} unparsed, "
+            f"{rep.seconds:.2f}s" + (" [dry run]" if dry_run else "")
+        )
+
+
 def register(app: typer.Typer) -> None:
     app.add_typer(db_app, name="db")
+    app.command("ingest")(ingest)

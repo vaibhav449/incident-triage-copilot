@@ -1,5 +1,5 @@
 # Team entry points. `make check` must pass before every /ship.
-.PHONY: help install check lint test db-up db-down db-migrate db-status dev-api dev-ui demo
+.PHONY: help install check lint test db-up db-down db-migrate db-status fixtures dev-api dev-ui demo
 
 # Load .env when it exists; otherwise the code falls back to the .env.example defaults.
 UV_RUN := uv run $(if $(wildcard .env),--env-file .env)
@@ -30,6 +30,10 @@ db-migrate:      ## create/update DB roles and apply pending migrations
 
 db-status:       ## show which migrations are applied
 	$(UV_RUN) triage db status
+
+fixtures:        ## ingest the 2 fixture scenarios + load their gold (after db-migrate)
+	$(UV_RUN) triage ingest fx01 fx02
+	$(UV_RUN) triage gold load fx01 fx02
 
 dev-api:         ## API dev server → http://localhost:8000/docs
 	uv run uvicorn triage.api.main:app --reload

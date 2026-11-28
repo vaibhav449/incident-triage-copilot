@@ -1,0 +1,128 @@
+2026-11-20 10:02:10.669 [http-nio-8080-exec-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 10:02:58.485 [http-nio-8080-exec-1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+2026-11-20 10:03:25.420 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=495342 amount=73.49
+2026-11-20 10:04:19.593 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=994148 amount=309.58
+2026-11-20 10:05:25.471 [http-nio-8080-exec-6] INFO  c.s.payment.ChargeService - Charge authorized for order=999647 amount=291.53
+2026-11-20 10:05:47.390 [http-nio-8080-exec-4] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+2026-11-20 10:06:11.869 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=956573 amount=236.70
+2026-11-20 10:07:02.542 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=452903 amount=386.86
+2026-11-20 10:07:21.292 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=290849 amount=287.60
+2026-11-20 10:10:07.760 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=462093 amount=236.29
+2026-11-20 10:10:14.970 [http-nio-8080-exec-6] INFO  c.s.payment.ChargeService - Charge authorized for order=134935 amount=256.80
+2026-11-20 10:10:22.278 [http-nio-8080-exec-6] INFO  c.s.payment.ChargeService - Charge authorized for order=806258 amount=249.13
+2026-11-20 10:10:37.849 [http-nio-8080-exec-2] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 10:11:12.650 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=439254 amount=342.60
+2026-11-20 10:11:31.161 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=406228 amount=375.26
+2026-11-20 10:11:57.803 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=264040 amount=195.19
+2026-11-20 10:12:03.993 [http-nio-8080-exec-7] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 10:12:21.461 [http-nio-8080-exec-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 10:12:29.785 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=624932 amount=320.68
+2026-11-20 10:13:01.932 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=989587 amount=119.81
+2026-11-20 10:14:59.076 [http-nio-8080-exec-1] INFO  c.s.payment.ChargeService - Charge authorized for order=170760 amount=328.05
+2026-11-20 10:15:50.272 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=192006 amount=27.48
+2026-11-20 10:16:07.849 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=938512 amount=314.10
+2026-11-20 10:16:32.104 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=926957 amount=398.42
+2026-11-20 10:18:34.322 [http-nio-8080-exec-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 10:19:00.483 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=724831 amount=26.10
+2026-11-20 10:19:20.032 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=436179 amount=93.66
+2026-11-20 10:21:09.040 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=602917 amount=113.82
+2026-11-20 10:21:12.949 [http-nio-8080-exec-4] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+2026-11-20 10:22:02.980 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=682112 amount=202.18
+2026-11-20 10:23:16.094 [http-nio-8080-exec-1] INFO  c.s.payment.ChargeService - Charge authorized for order=544096 amount=312.78
+2026-11-20 10:24:10.266 [http-nio-8080-exec-4] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=4, idle=16, waiting=0)
+2026-11-20 10:24:47.822 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=314114 amount=285.08
+2026-11-20 10:25:50.346 [http-nio-8080-exec-8] WARN  c.s.payment.ChargeService - Retrying idempotent charge for order=698187 (attempt 2)
+2026-11-20 10:27:13.786 [http-nio-8080-exec-2] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 10:28:33.349 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=303024 amount=62.36
+2026-11-20 10:31:02.820 [http-nio-8080-exec-5] WARN  c.s.payment.ChargeService - Retrying idempotent charge for order=803879 (attempt 2)
+2026-11-20 10:34:27.495 [http-nio-8080-exec-4] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=4, idle=16, waiting=0)
+2026-11-20 10:35:18.598 [http-nio-8080-exec-1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 10:36:22.155 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=400731 amount=46.34
+2026-11-20 10:36:55.308 [http-nio-8080-exec-7] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+2026-11-20 10:38:45.674 [http-nio-8080-exec-5] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 10:39:04.081 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=824353 amount=231.95
+2026-11-20 10:39:09.708 [http-nio-8080-exec-1] INFO  c.s.payment.ChargeService - Charge authorized for order=607128 amount=239.23
+2026-11-20 10:40:45.396 [http-nio-8080-exec-7] WARN  c.s.payment.ChargeService - Retrying idempotent charge for order=816002 (attempt 2)
+2026-11-20 10:41:40.804 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=983006 amount=106.83
+2026-11-20 10:41:52.445 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=996334 amount=19.20
+2026-11-20 10:42:48.093 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=589962 amount=363.01
+2026-11-20 10:43:07.881 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=594909 amount=28.51
+2026-11-20 10:43:35.925 [http-nio-8080-exec-1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 10:44:13.228 [http-nio-8080-exec-1] INFO  c.s.payment.ChargeService - Charge authorized for order=800786 amount=127.44
+2026-11-20 10:44:21.924 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=449849 amount=399.42
+2026-11-20 10:44:54.221 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=245967 amount=351.43
+2026-11-20 10:45:11.822 [http-nio-8080-exec-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+2026-11-20 10:46:17.490 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=405495 amount=14.99
+2026-11-20 10:46:59.327 [http-nio-8080-exec-1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 10:47:17.544 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=586052 amount=246.39
+2026-11-20 10:47:29.512 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=523779 amount=26.99
+2026-11-20 10:48:05.743 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=320755 amount=372.39
+2026-11-20 10:48:43.120 [http-nio-8080-exec-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 10:51:31.681 [http-nio-8080-exec-8] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+2026-11-20 10:52:42.946 [http-nio-8080-exec-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 10:53:38.461 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=513316 amount=78.15
+2026-11-20 10:53:49.436 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=762489 amount=138.30
+2026-11-20 10:54:32.971 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=215731 amount=330.55
+2026-11-20 10:55:11.172 [http-nio-8080-exec-5] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=5, idle=15, waiting=0)
+2026-11-20 10:55:34.936 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=800915 amount=39.67
+2026-11-20 10:55:37.991 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=338835 amount=113.86
+2026-11-20 10:57:17.214 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=532906 amount=309.16
+2026-11-20 10:58:16.301 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=766596 amount=159.77
+2026-11-20 10:58:29.035 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=729043 amount=367.67
+2026-11-20 10:58:50.600 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=761097 amount=125.30
+2026-11-20 10:59:12.581 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=532336 amount=102.41
+2026-11-20 10:59:49.197 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=735964 amount=328.46
+2026-11-20 11:00:05.357 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=231371 amount=220.40
+2026-11-20 11:00:08.920 [http-nio-8080-exec-8] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 11:00:46.281 [http-nio-8080-exec-1] INFO  c.s.payment.ChargeService - Charge authorized for order=135656 amount=336.76
+2026-11-20 11:00:57.721 [http-nio-8080-exec-1] INFO  c.s.payment.ChargeService - Charge authorized for order=313054 amount=101.92
+2026-11-20 11:02:23.000 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=739849 amount=121.26
+2026-11-20 11:03:28.661 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=162703 amount=153.45
+2026-11-20 11:03:45.296 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=565820 amount=298.00
+2026-11-20 11:03:59.480 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=536963 amount=349.54
+2026-11-20 11:04:56.654 [http-nio-8080-exec-1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 11:04:58.038 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=432735 amount=204.80
+2026-11-20 11:05:08.509 [http-nio-8080-exec-4] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 11:06:48.700 [http-nio-8080-exec-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+2026-11-20 11:07:06.537 [http-nio-8080-exec-5] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+2026-11-20 11:07:33.062 [http-nio-8080-exec-7] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=4, idle=16, waiting=0)
+2026-11-20 11:08:42.699 [http-nio-8080-exec-6] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=4, idle=16, waiting=0)
+2026-11-20 11:10:47.455 [http-nio-8080-exec-4] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 11:11:21.493 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=605608 amount=349.11
+2026-11-20 11:12:23.098 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=774404 amount=18.89
+2026-11-20 11:12:45.657 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=473215 amount=207.33
+2026-11-20 11:12:50.623 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=592805 amount=136.89
+2026-11-20 11:12:57.405 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=220491 amount=354.33
+2026-11-20 11:13:31.357 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=511362 amount=108.38
+2026-11-20 11:13:58.508 [http-nio-8080-exec-6] INFO  c.s.payment.ChargeService - Charge authorized for order=756366 amount=78.09
+2026-11-20 11:13:59.986 [http-nio-8080-exec-4] WARN  c.s.payment.ChargeService - Retrying idempotent charge for order=301206 (attempt 2)
+2026-11-20 11:14:06.514 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=709142 amount=338.69
+2026-11-20 11:15:40.227 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=543737 amount=103.54
+2026-11-20 11:15:46.854 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=382946 amount=75.50
+2026-11-20 11:17:20.617 [http-nio-8080-exec-1] WARN  c.s.payment.ChargeService - Retrying idempotent charge for order=354604 (attempt 2)
+2026-11-20 11:18:09.093 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=604483 amount=90.81
+2026-11-20 11:18:24.432 [http-nio-8080-exec-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=4, idle=16, waiting=0)
+2026-11-20 11:19:16.272 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=814746 amount=68.54
+2026-11-20 11:19:19.599 [http-nio-8080-exec-6] INFO  c.s.payment.ChargeService - Charge authorized for order=433599 amount=79.22
+2026-11-20 11:23:19.579 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=387106 amount=207.10
+2026-11-20 11:23:19.635 [http-nio-8080-exec-1] WARN  c.s.payment.ChargeService - Retrying idempotent charge for order=983430 (attempt 2)
+2026-11-20 11:23:23.806 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=243674 amount=392.76
+2026-11-20 11:24:33.797 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=923858 amount=148.75
+2026-11-20 11:25:22.110 [http-nio-8080-exec-8] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+2026-11-20 11:25:33.355 [http-nio-8080-exec-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 11:26:10.568 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=743368 amount=72.98
+2026-11-20 11:27:10.135 [http-nio-8080-exec-8] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 11:27:10.447 [http-nio-8080-exec-7] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=4, idle=16, waiting=0)
+2026-11-20 11:27:19.002 [http-nio-8080-exec-7] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 11:28:08.009 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=222524 amount=273.94
+2026-11-20 11:28:55.835 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=116035 amount=257.66
+2026-11-20 11:28:56.040 [http-nio-8080-exec-5] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 11:29:05.642 [http-nio-8080-exec-1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=4, idle=16, waiting=0)
+2026-11-20 11:29:09.218 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=396673 amount=192.83
+2026-11-20 11:29:11.440 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=916819 amount=338.71
+2026-11-20 11:29:58.148 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=448427 amount=130.04
+2026-11-20 11:30:21.403 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=267574 amount=82.98
+2026-11-20 11:30:36.304 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=748470 amount=240.52
+2026-11-20 11:30:47.967 [http-nio-8080-exec-2] WARN  c.s.payment.ChargeService - Retrying idempotent charge for order=651709 (attempt 2)
+2026-11-20 11:31:08.956 [http-nio-8080-exec-8] WARN  c.s.payment.ChargeService - Retrying idempotent charge for order=966482 (attempt 2)
+2026-11-20 11:31:44.124 [http-nio-8080-exec-6] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=5, idle=15, waiting=0)

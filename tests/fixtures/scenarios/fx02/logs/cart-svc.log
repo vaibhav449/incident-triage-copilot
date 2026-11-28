@@ -1,0 +1,237 @@
+ts=2026-11-20T10:00:06.063Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=249 elapsed_ms=103
+ts=2026-11-20T10:00:21.505Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=492 elapsed_ms=267
+ts=2026-11-20T10:00:26.657Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=280
+ts=2026-11-20T10:00:40.040Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=445 elapsed_ms=224
+ts=2026-11-20T10:01:05.374Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=151 elapsed_ms=162
+ts=2026-11-20T10:01:06.426Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=459
+ts=2026-11-20T10:02:54.430Z level=info svc=cart-svc host=cart-1 msg="redis GET miss" key=cart:312
+ts=2026-11-20T10:04:18.754Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=40 elapsed_ms=169
+ts=2026-11-20T10:04:28.390Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=351 elapsed_ms=158
+ts=2026-11-20T10:05:13.931Z level=info svc=cart-svc host=cart-1 msg="redis GET miss" key=cart:354
+ts=2026-11-20T10:05:31.679Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=132 elapsed_ms=252
+ts=2026-11-20T10:06:21.205Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=142 elapsed_ms=220
+ts=2026-11-20T10:06:29.955Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=48
+ts=2026-11-20T10:07:15.400Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=241
+ts=2026-11-20T10:07:35.871Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=4 items=7
+ts=2026-11-20T10:07:36.146Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=40 elapsed_ms=267
+ts=2026-11-20T10:07:40.242Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=307 items=5
+ts=2026-11-20T10:08:21.226Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=53 elapsed_ms=278
+ts=2026-11-20T10:08:21.932Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=166 items=1
+ts=2026-11-20T10:08:28.889Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=43
+ts=2026-11-20T10:08:44.910Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=492 items=3
+ts=2026-11-20T10:09:52.583Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=20 elapsed_ms=132
+ts=2026-11-20T10:10:05.823Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=228 items=7
+ts=2026-11-20T10:10:24.480Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=169
+ts=2026-11-20T10:10:28.364Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=165 items=1
+ts=2026-11-20T10:10:30.858Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=184 items=9
+ts=2026-11-20T10:11:00.584Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=247
+ts=2026-11-20T10:11:13.608Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=42 elapsed_ms=140
+ts=2026-11-20T10:11:44.892Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=250
+ts=2026-11-20T10:11:45.750Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=353 items=8
+ts=2026-11-20T10:12:00.354Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=187 elapsed_ms=80
+ts=2026-11-20T10:12:22.787Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=364
+ts=2026-11-20T10:12:25.459Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=191
+ts=2026-11-20T10:12:55.704Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=158 items=6
+ts=2026-11-20T10:13:01.270Z level=info svc=cart-svc host=cart-2 msg="redis GET miss" key=cart:174
+ts=2026-11-20T10:13:12.500Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=239 elapsed_ms=88
+ts=2026-11-20T10:13:21.683Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=156 items=7
+ts=2026-11-20T10:13:45.997Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=331 items=9
+ts=2026-11-20T10:14:00.073Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=418 elapsed_ms=240
+ts=2026-11-20T10:14:35.561Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=151
+ts=2026-11-20T10:15:02.734Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=321 elapsed_ms=162
+ts=2026-11-20T10:15:07.295Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=322 items=6
+ts=2026-11-20T10:15:20.468Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=326 elapsed_ms=120
+ts=2026-11-20T10:15:32.304Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=211 elapsed_ms=143
+ts=2026-11-20T10:15:36.844Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=422
+ts=2026-11-20T10:16:22.741Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=158 items=7
+ts=2026-11-20T10:16:50.686Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=348 elapsed_ms=104
+ts=2026-11-20T10:17:10.544Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=196 elapsed_ms=80
+ts=2026-11-20T10:17:49.850Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=206 items=9
+ts=2026-11-20T10:17:53.671Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=233
+ts=2026-11-20T10:18:14.116Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=116 elapsed_ms=283
+ts=2026-11-20T10:18:24.602Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=487
+ts=2026-11-20T10:18:25.821Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=230
+ts=2026-11-20T10:18:30.438Z level=info svc=cart-svc host=cart-1 msg="redis GET miss" key=cart:44
+ts=2026-11-20T10:18:41.492Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=291
+ts=2026-11-20T10:19:00.413Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=324 elapsed_ms=276
+ts=2026-11-20T10:20:03.920Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=78 elapsed_ms=206
+ts=2026-11-20T10:20:07.703Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=436
+ts=2026-11-20T10:20:28.933Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=475 items=6
+ts=2026-11-20T10:21:05.642Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=132
+ts=2026-11-20T10:21:09.086Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=30 elapsed_ms=206
+ts=2026-11-20T10:21:14.994Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=130
+ts=2026-11-20T10:21:30.916Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=208
+ts=2026-11-20T10:22:06.717Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=335 items=2
+ts=2026-11-20T10:22:36.230Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=169
+ts=2026-11-20T10:22:39.958Z level=info svc=cart-svc host=cart-1 msg="redis GET miss" key=cart:270
+ts=2026-11-20T10:23:07.277Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=359
+ts=2026-11-20T10:23:40.900Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=129 items=1
+ts=2026-11-20T10:23:53.755Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=345
+ts=2026-11-20T10:24:25.892Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=153 items=2
+ts=2026-11-20T10:24:31.854Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=427 items=8
+ts=2026-11-20T10:24:53.637Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=344
+ts=2026-11-20T10:25:04.905Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=229 elapsed_ms=178
+ts=2026-11-20T10:25:20.711Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=405 items=9
+ts=2026-11-20T10:25:24.706Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=77
+ts=2026-11-20T10:27:00.637Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=43 elapsed_ms=66
+ts=2026-11-20T10:27:00.828Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=388 elapsed_ms=275
+ts=2026-11-20T10:27:08.653Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=343
+ts=2026-11-20T10:27:21.994Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=270 items=3
+ts=2026-11-20T10:27:27.247Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=257
+ts=2026-11-20T10:28:05.946Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=59 elapsed_ms=180
+ts=2026-11-20T10:28:45.837Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=197 elapsed_ms=233
+ts=2026-11-20T10:29:01.008Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=494 items=9
+ts=2026-11-20T10:29:33.008Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=60
+ts=2026-11-20T10:29:44.092Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=112 items=4
+ts=2026-11-20T10:30:27.090Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=129 elapsed_ms=212
+ts=2026-11-20T10:31:25.601Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=337
+ts=2026-11-20T10:31:52.454Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=53
+ts=2026-11-20T10:32:00.404Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=245 elapsed_ms=237
+ts=2026-11-20T10:32:08.485Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=410 elapsed_ms=200
+ts=2026-11-20T10:32:45.308Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=303 items=5
+ts=2026-11-20T10:33:06.898Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=262 elapsed_ms=133
+ts=2026-11-20T10:33:16.908Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=178
+ts=2026-11-20T10:33:43.526Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=15 elapsed_ms=73
+ts=2026-11-20T10:34:15.698Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=60 items=2
+ts=2026-11-20T10:34:27.092Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=155 items=9
+ts=2026-11-20T10:34:30.276Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=277 items=8
+ts=2026-11-20T10:34:34.142Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=445
+ts=2026-11-20T10:35:16.390Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=73
+ts=2026-11-20T10:37:06.827Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=179 elapsed_ms=153
+ts=2026-11-20T10:37:42.726Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=251
+ts=2026-11-20T10:38:07.212Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=279
+ts=2026-11-20T10:38:12.852Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=378
+ts=2026-11-20T10:39:01.565Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=435
+ts=2026-11-20T10:39:11.868Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=454
+ts=2026-11-20T10:39:29.803Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=308
+ts=2026-11-20T10:40:48.311Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=28 items=6
+ts=2026-11-20T10:40:58.619Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=321
+ts=2026-11-20T10:41:40.885Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=273 items=5
+ts=2026-11-20T10:41:58.150Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=405
+ts=2026-11-20T10:42:21.132Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=125
+ts=2026-11-20T10:42:25.337Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=235
+ts=2026-11-20T10:42:34.550Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=102 elapsed_ms=184
+ts=2026-11-20T10:42:36.317Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=235 elapsed_ms=139
+ts=2026-11-20T10:42:57.758Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=468 elapsed_ms=249
+ts=2026-11-20T10:43:36.820Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=190
+ts=2026-11-20T10:44:01.902Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=242
+ts=2026-11-20T10:44:06.253Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=270 elapsed_ms=177
+ts=2026-11-20T10:44:18.918Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=103 items=9
+ts=2026-11-20T10:45:41.099Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=303
+ts=2026-11-20T10:45:44.617Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=338 elapsed_ms=66
+ts=2026-11-20T10:46:09.629Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=211 elapsed_ms=205
+ts=2026-11-20T10:46:40.895Z level=info svc=cart-svc host=cart-1 msg="redis GET miss" key=cart:281
+ts=2026-11-20T10:47:27.684Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=76 items=3
+ts=2026-11-20T10:47:43.779Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=312 elapsed_ms=292
+ts=2026-11-20T10:48:34.273Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=290 items=7
+ts=2026-11-20T10:48:46.742Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=17 elapsed_ms=122
+ts=2026-11-20T10:49:50.750Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=378 items=3
+ts=2026-11-20T10:50:05.964Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=32 items=9
+ts=2026-11-20T10:50:51.771Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=81 elapsed_ms=289
+ts=2026-11-20T10:51:37.457Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=404
+ts=2026-11-20T10:52:02.882Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=71 items=8
+ts=2026-11-20T10:52:28.984Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=167 items=9
+ts=2026-11-20T10:52:31.270Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=197 elapsed_ms=282
+ts=2026-11-20T10:53:01.880Z level=info svc=cart-svc host=cart-2 msg="redis GET miss" key=cart:391
+ts=2026-11-20T10:53:10.242Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=426 elapsed_ms=104
+ts=2026-11-20T10:53:17.935Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=144
+ts=2026-11-20T10:53:26.544Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=71 items=7
+ts=2026-11-20T10:53:34.247Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=471 elapsed_ms=217
+ts=2026-11-20T10:53:42.598Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=170
+ts=2026-11-20T10:53:43.660Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=33
+ts=2026-11-20T10:54:32.468Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=175
+ts=2026-11-20T10:54:51.477Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=380 items=7
+ts=2026-11-20T10:54:55.993Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=74
+ts=2026-11-20T10:55:03.377Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=385
+ts=2026-11-20T10:55:48.820Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=177
+ts=2026-11-20T10:56:17.396Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=43
+ts=2026-11-20T10:56:54.409Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=370 elapsed_ms=142
+ts=2026-11-20T10:57:09.809Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=183
+ts=2026-11-20T10:57:21.272Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=70
+ts=2026-11-20T10:57:34.528Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=299 elapsed_ms=142
+ts=2026-11-20T10:58:04.561Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=338
+ts=2026-11-20T10:58:44.150Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=275 items=7
+ts=2026-11-20T10:59:05.927Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=367 items=8
+ts=2026-11-20T10:59:25.986Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=73 items=3
+ts=2026-11-20T11:00:07.569Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=483 items=9
+ts=2026-11-20T11:00:37.642Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=293 items=5
+ts=2026-11-20T11:01:20.555Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=21 items=6
+ts=2026-11-20T11:01:44.505Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=323 items=2
+ts=2026-11-20T11:01:59.180Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=101
+ts=2026-11-20T11:02:13.011Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=417 elapsed_ms=257
+ts=2026-11-20T11:02:13.970Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=384 items=9
+ts=2026-11-20T11:02:16.925Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=346 items=1
+ts=2026-11-20T11:02:55.535Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=391 items=3
+ts=2026-11-20T11:03:22.914Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=243 items=7
+ts=2026-11-20T11:03:24.369Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=439 items=2
+ts=2026-11-20T11:03:43.892Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=91
+ts=2026-11-20T11:04:00.920Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=233 elapsed_ms=269
+ts=2026-11-20T11:04:12.608Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=258 elapsed_ms=295
+ts=2026-11-20T11:04:26.775Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=9 items=2
+ts=2026-11-20T11:04:56.216Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=336
+ts=2026-11-20T11:05:42.215Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=348
+ts=2026-11-20T11:06:08.952Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=379 items=5
+ts=2026-11-20T11:07:03.840Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=5
+ts=2026-11-20T11:07:09.411Z level=info svc=cart-svc host=cart-1 msg="redis GET miss" key=cart:458
+ts=2026-11-20T11:07:15.687Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=363
+ts=2026-11-20T11:08:03.206Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=129 elapsed_ms=244
+ts=2026-11-20T11:08:05.030Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=491
+ts=2026-11-20T11:08:11.121Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=418 elapsed_ms=255
+ts=2026-11-20T11:08:13.557Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=167 elapsed_ms=213
+ts=2026-11-20T11:08:16.554Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=352 elapsed_ms=264
+ts=2026-11-20T11:08:16.643Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=227 elapsed_ms=294
+ts=2026-11-20T11:08:19.038Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=337 items=3
+ts=2026-11-20T11:08:57.315Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=12
+ts=2026-11-20T11:09:08.578Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=174
+ts=2026-11-20T11:09:16.943Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=424 elapsed_ms=273
+ts=2026-11-20T11:09:44.500Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=108 elapsed_ms=139
+ts=2026-11-20T11:09:44.715Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=479 elapsed_ms=135
+ts=2026-11-20T11:10:05.657Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=374
+ts=2026-11-20T11:10:17.870Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=386 items=8
+ts=2026-11-20T11:12:23.529Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=376 items=9
+ts=2026-11-20T11:12:27.487Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=8 items=1
+ts=2026-11-20T11:12:29.108Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=383
+ts=2026-11-20T11:12:43.802Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=3 elapsed_ms=118
+ts=2026-11-20T11:13:01.255Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=24 elapsed_ms=275
+ts=2026-11-20T11:13:01.803Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=357
+ts=2026-11-20T11:13:03.549Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=250 elapsed_ms=82
+ts=2026-11-20T11:13:36.895Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=254 items=2
+ts=2026-11-20T11:14:33.046Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=314
+ts=2026-11-20T11:14:36.096Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=261
+ts=2026-11-20T11:16:05.577Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=349 elapsed_ms=286
+ts=2026-11-20T11:16:10.175Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=337 items=7
+ts=2026-11-20T11:16:46.971Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=410
+ts=2026-11-20T11:16:49.884Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=493 items=4
+ts=2026-11-20T11:17:29.301Z level=info svc=cart-svc host=cart-1 msg="redis GET miss" key=cart:97
+ts=2026-11-20T11:17:39.089Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=349
+ts=2026-11-20T11:17:42.451Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=489 elapsed_ms=211
+ts=2026-11-20T11:17:47.730Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=287 elapsed_ms=69
+ts=2026-11-20T11:18:03.725Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=341 elapsed_ms=64
+ts=2026-11-20T11:18:04.296Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=282 elapsed_ms=95
+ts=2026-11-20T11:18:25.058Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=362 elapsed_ms=93
+ts=2026-11-20T11:18:53.416Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=380 items=6
+ts=2026-11-20T11:19:43.901Z level=info svc=cart-svc host=cart-2 msg="redis GET miss" key=cart:258
+ts=2026-11-20T11:19:44.093Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=97
+ts=2026-11-20T11:20:06.136Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=49 items=4
+ts=2026-11-20T11:20:23.811Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=39 items=2
+ts=2026-11-20T11:20:51.664Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=408 items=3
+ts=2026-11-20T11:20:54.870Z level=info svc=cart-svc host=cart-2 msg="redis GET miss" key=cart:486
+ts=2026-11-20T11:21:00.373Z level=info svc=cart-svc host=cart-2 msg="cart updated" cart_id=184 items=2
+ts=2026-11-20T11:21:00.926Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=404 elapsed_ms=208
+ts=2026-11-20T11:21:12.574Z level=info svc=cart-svc host=cart-1 msg="redis GET miss" key=cart:146
+ts=2026-11-20T11:21:13.227Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=499
+ts=2026-11-20T11:21:27.037Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=324 items=7
+ts=2026-11-20T11:21:34.703Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=450 items=1
+ts=2026-11-20T11:23:31.023Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=43
+ts=2026-11-20T11:24:10.816Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=183 elapsed_ms=198
+ts=2026-11-20T11:25:38.469Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=221 elapsed_ms=147
+ts=2026-11-20T11:25:59.453Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=250 elapsed_ms=99
+ts=2026-11-20T11:26:22.326Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=24
+ts=2026-11-20T11:26:37.024Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=52 items=1
+ts=2026-11-20T11:27:05.501Z level=info svc=cart-svc host=cart-1 msg="cart updated" cart_id=213 items=1
+ts=2026-11-20T11:28:08.640Z level=info svc=cart-svc host=cart-1 msg="checkout started" cart_id=370
+ts=2026-11-20T11:28:19.063Z level=info svc=cart-svc host=cart-1 msg="payment call ok" cart_id=255 elapsed_ms=231
+ts=2026-11-20T11:28:45.846Z level=info svc=cart-svc host=cart-2 msg="payment call ok" cart_id=328 elapsed_ms=114
+ts=2026-11-20T11:29:11.216Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=151
+ts=2026-11-20T11:29:29.430Z level=info svc=cart-svc host=cart-1 msg="redis GET miss" key=cart:482
+ts=2026-11-20T11:31:56.049Z level=info svc=cart-svc host=cart-2 msg="checkout started" cart_id=87

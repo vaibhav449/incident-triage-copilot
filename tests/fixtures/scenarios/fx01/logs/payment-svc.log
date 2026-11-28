@@ -1,0 +1,233 @@
+2026-11-20 10:00:02.830 [http-nio-8080-exec-5] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+2026-11-20 10:00:20.238 [http-nio-8080-exec-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=5, idle=15, waiting=0)
+2026-11-20 10:01:24.163 [http-nio-8080-exec-6] WARN  c.s.payment.ChargeService - Retrying idempotent charge for order=155942 (attempt 2)
+2026-11-20 10:02:13.735 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=513171 amount=84.94
+2026-11-20 10:02:44.117 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=410590 amount=355.67
+2026-11-20 10:03:11.342 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=303219 amount=332.31
+2026-11-20 10:03:11.704 [http-nio-8080-exec-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+2026-11-20 10:04:17.603 [http-nio-8080-exec-1] INFO  c.s.payment.ChargeService - Charge authorized for order=155449 amount=111.88
+2026-11-20 10:04:50.580 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=431742 amount=313.62
+2026-11-20 10:06:01.780 [http-nio-8080-exec-7] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=4, idle=16, waiting=0)
+2026-11-20 10:06:12.936 [http-nio-8080-exec-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 10:06:26.429 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=810378 amount=355.70
+2026-11-20 10:07:01.810 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=548755 amount=269.37
+2026-11-20 10:07:07.095 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=576037 amount=11.64
+2026-11-20 10:07:16.239 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=795942 amount=362.64
+2026-11-20 10:08:03.001 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=520061 amount=265.61
+2026-11-20 10:09:56.352 [http-nio-8080-exec-6] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=4, idle=16, waiting=0)
+2026-11-20 10:10:21.920 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=281415 amount=345.50
+2026-11-20 10:12:48.792 [http-nio-8080-exec-5] WARN  c.s.payment.ChargeService - Retrying idempotent charge for order=320453 (attempt 2)
+2026-11-20 10:13:27.626 [http-nio-8080-exec-7] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=4, idle=16, waiting=0)
+2026-11-20 10:13:57.110 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=824699 amount=352.93
+2026-11-20 10:14:49.723 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=291575 amount=151.47
+2026-11-20 10:15:15.210 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=759110 amount=218.63
+2026-11-20 10:15:57.744 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=538052 amount=183.42
+2026-11-20 10:16:23.782 [http-nio-8080-exec-8] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 10:16:34.999 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=736721 amount=306.31
+2026-11-20 10:17:11.099 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=124384 amount=119.23
+2026-11-20 10:17:22.795 [http-nio-8080-exec-8] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+2026-11-20 10:17:42.476 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=725859 amount=129.48
+2026-11-20 10:18:09.693 [http-nio-8080-exec-5] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=4, idle=16, waiting=0)
+2026-11-20 10:18:42.544 [http-nio-8080-exec-1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 10:19:01.334 [http-nio-8080-exec-6] INFO  c.s.payment.ChargeService - Charge authorized for order=458477 amount=273.74
+2026-11-20 10:19:12.764 [http-nio-8080-exec-6] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 10:19:34.903 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=935029 amount=136.27
+2026-11-20 10:21:09.901 [http-nio-8080-exec-8] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=4, idle=16, waiting=0)
+2026-11-20 10:21:13.226 [http-nio-8080-exec-8] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 10:21:19.678 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=224727 amount=212.06
+2026-11-20 10:21:55.237 [http-nio-8080-exec-8] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=5, idle=15, waiting=0)
+2026-11-20 10:22:59.828 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=197841 amount=261.66
+2026-11-20 10:24:47.437 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=351352 amount=245.48
+2026-11-20 10:24:51.725 [http-nio-8080-exec-6] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 10:24:52.379 [http-nio-8080-exec-6] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 10:25:11.242 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=430319 amount=301.97
+2026-11-20 10:26:39.105 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=750706 amount=165.81
+2026-11-20 10:28:44.429 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=905986 amount=78.68
+2026-11-20 10:29:50.714 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=499082 amount=128.65
+2026-11-20 10:30:19.465 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=470187 amount=58.25
+2026-11-20 10:32:49.839 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=955446 amount=299.45
+2026-11-20 10:33:02.759 [http-nio-8080-exec-2] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=5, idle=15, waiting=0)
+2026-11-20 10:33:20.998 [http-nio-8080-exec-7] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=4, idle=16, waiting=0)
+2026-11-20 10:33:40.242 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=767342 amount=324.93
+2026-11-20 10:33:56.520 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=382683 amount=135.85
+2026-11-20 10:36:46.495 [http-nio-8080-exec-2] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=5, idle=15, waiting=0)
+2026-11-20 10:37:13.266 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=545227 amount=56.76
+2026-11-20 10:39:25.225 [http-nio-8080-exec-1] INFO  c.s.payment.ChargeService - Charge authorized for order=527870 amount=312.73
+2026-11-20 10:39:35.804 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=163229 amount=38.86
+2026-11-20 10:40:10.740 [http-nio-8080-exec-2] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 10:41:35.516 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=566399 amount=232.68
+2026-11-20 10:41:49.579 [http-nio-8080-exec-1] INFO  c.s.payment.ChargeService - Charge authorized for order=258063 amount=88.84
+2026-11-20 10:43:00.960 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=931912 amount=255.90
+2026-11-20 10:43:01.640 [http-nio-8080-exec-4] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 10:43:59.862 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=805073 amount=330.64
+2026-11-20 10:44:43.977 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=613464 amount=136.13
+2026-11-20 10:44:50.081 [http-nio-8080-exec-7] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+2026-11-20 10:46:07.185 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=907601 amount=188.93
+2026-11-20 10:46:28.225 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=614363 amount=330.84
+2026-11-20 10:46:35.273 [http-nio-8080-exec-6] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 10:46:37.759 [http-nio-8080-exec-2] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 10:47:02.289 [http-nio-8080-exec-6] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=4, idle=16, waiting=0)
+2026-11-20 10:47:31.940 [http-nio-8080-exec-1] INFO  c.s.payment.ChargeService - Charge authorized for order=469671 amount=398.81
+2026-11-20 10:47:45.546 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=490258 amount=30.05
+2026-11-20 10:47:58.229 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=951026 amount=271.99
+2026-11-20 10:48:33.489 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=739868 amount=279.47
+2026-11-20 10:48:41.508 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=682636 amount=57.00
+2026-11-20 10:49:00.099 [http-nio-8080-exec-6] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=5, idle=15, waiting=0)
+2026-11-20 10:53:28.869 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=818714 amount=383.80
+2026-11-20 10:54:20.769 [http-nio-8080-exec-5] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+2026-11-20 10:54:30.316 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=718918 amount=392.34
+2026-11-20 10:54:33.756 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=524293 amount=136.33
+2026-11-20 10:54:38.700 [http-nio-8080-exec-4] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 10:54:55.127 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=952892 amount=236.53
+2026-11-20 10:55:00.708 [http-nio-8080-exec-1] WARN  c.s.payment.ChargeService - Retrying idempotent charge for order=392265 (attempt 2)
+2026-11-20 10:55:36.202 [http-nio-8080-exec-1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 10:56:32.250 [http-nio-8080-exec-3] WARN  c.s.payment.ChargeService - Retrying idempotent charge for order=385806 (attempt 2)
+2026-11-20 10:57:06.868 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=709844 amount=371.46
+2026-11-20 10:58:47.276 [http-nio-8080-exec-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 11:00:37.031 [http-nio-8080-exec-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=5, idle=15, waiting=0)
+2026-11-20 11:00:40.915 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=641070 amount=14.90
+2026-11-20 11:00:42.509 [http-nio-8080-exec-8] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 11:01:07.422 [http-nio-8080-exec-5] WARN  c.s.payment.ChargeService - Retrying idempotent charge for order=320741 (attempt 2)
+2026-11-20 11:01:25.057 [http-nio-8080-exec-8] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=5, idle=15, waiting=0)
+2026-11-20 11:01:35.287 [http-nio-8080-exec-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 11:03:33.847 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=913334 amount=117.52
+2026-11-20 11:07:09.505 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=491623 amount=385.86
+2026-11-20 11:07:55.355 [http-nio-8080-exec-6] INFO  c.s.payment.ChargeService - Charge authorized for order=718781 amount=64.41
+2026-11-20 11:08:43.498 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=573477 amount=336.67
+2026-11-20 11:09:59.789 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=852003 amount=339.97
+2026-11-20 11:10:12.630 [http-nio-8080-exec-1] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=5, idle=15, waiting=0)
+2026-11-20 11:10:16.190 [http-nio-8080-exec-7] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=3, idle=17, waiting=0)
+2026-11-20 11:10:47.423 [http-nio-8080-exec-2] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+2026-11-20 11:10:54.887 [http-nio-8080-exec-7] INFO  c.s.payment.ChargeService - Charge authorized for order=628042 amount=379.96
+2026-11-20 11:11:12.291 [http-nio-8080-exec-1] INFO  c.s.payment.ChargeService - Charge authorized for order=886908 amount=149.46
+2026-11-20 11:11:37.757 [http-nio-8080-exec-3] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=4, idle=16, waiting=0)
+2026-11-20 11:12:38.497 [http-nio-8080-exec-8] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=2, idle=18, waiting=0)
+2026-11-20 11:12:48.310 [http-nio-8080-exec-7] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=5, idle=15, waiting=0)
+2026-11-20 11:13:50.217 [http-nio-8080-exec-5] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=1, idle=19, waiting=0)
+2026-11-20 11:14:14.080 [http-nio-8080-exec-6] INFO  c.s.payment.ChargeService - Charge authorized for order=324628 amount=270.21
+2026-11-20 11:14:44.193 [http-nio-8080-exec-3] INFO  c.s.payment.ChargeService - Charge authorized for order=425391 amount=224.12
+2026-11-20 11:15:12.978 [http-nio-8080-exec-2] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=5, idle=15, waiting=0)
+2026-11-20 11:15:33.729 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=635778 amount=229.49
+2026-11-20 11:15:39.155 [http-nio-8080-exec-5] WARN  com.zaxxer.hikari.pool.ProxyLeakTask - Connection leak detection triggered for org.postgresql.jdbc.PgConnection@8ae08063, stack trace follows
+2026-11-20 11:15:57.597 [http-nio-8080-exec-6] WARN  com.zaxxer.hikari.pool.ProxyLeakTask - Connection leak detection triggered for org.postgresql.jdbc.PgConnection@d80074c2, stack trace follows
+2026-11-20 11:17:49.953 [http-nio-8080-exec-7] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection is not available, request timed out after 5000ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 5000ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.shop.payment.ChargeService.charge(ChargeService.java:88)
+2026-11-20 11:18:54.862 [http-nio-8080-exec-7] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection is not available, request timed out after 5000ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 5000ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.shop.payment.ChargeService.charge(ChargeService.java:88)
+2026-11-20 11:19:05.919 [http-nio-8080-exec-4] ERROR c.s.payment.ChargeService - Charge failed for order=590636: could not acquire DB connection
+2026-11-20 11:19:18.331 [http-nio-8080-exec-1] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection is not available, request timed out after 5000ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 5000ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.shop.payment.ChargeService.charge(ChargeService.java:88)
+2026-11-20 11:19:29.725 [http-nio-8080-exec-6] WARN  com.zaxxer.hikari.pool.ProxyLeakTask - Connection leak detection triggered for org.postgresql.jdbc.PgConnection@ce9ef88e, stack trace follows
+2026-11-20 11:19:40.593 [http-nio-8080-exec-8] ERROR c.s.payment.ChargeService - Charge failed for order=428042: could not acquire DB connection
+2026-11-20 11:19:42.178 [http-nio-8080-exec-2] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection is not available, request timed out after 5000ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 5000ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.shop.payment.ChargeService.charge(ChargeService.java:88)
+2026-11-20 11:19:42.810 [http-nio-8080-exec-2] ERROR c.s.payment.ChargeService - Charge failed for order=736287: could not acquire DB connection
+2026-11-20 11:19:50.609 [http-nio-8080-exec-7] WARN  com.zaxxer.hikari.pool.ProxyLeakTask - Connection leak detection triggered for org.postgresql.jdbc.PgConnection@d613dd50, stack trace follows
+2026-11-20 11:20:07.037 [http-nio-8080-exec-4] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection is not available, request timed out after 5000ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 5000ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.shop.payment.ChargeService.charge(ChargeService.java:88)
+2026-11-20 11:20:11.627 [http-nio-8080-exec-4] ERROR c.s.payment.ChargeService - Charge failed for order=348962: could not acquire DB connection
+2026-11-20 11:20:14.501 [http-nio-8080-exec-6] ERROR c.s.payment.ChargeService - Charge failed for order=985991: could not acquire DB connection
+2026-11-20 11:20:25.761 [http-nio-8080-exec-1] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection is not available, request timed out after 5000ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 5000ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.shop.payment.ChargeService.charge(ChargeService.java:88)
+2026-11-20 11:20:25.915 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=448297 amount=348.49
+2026-11-20 11:20:26.967 [http-nio-8080-exec-2] ERROR c.s.payment.ChargeService - Charge failed for order=192143: could not acquire DB connection
+2026-11-20 11:20:27.723 [http-nio-8080-exec-5] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection is not available, request timed out after 5000ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 5000ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.shop.payment.ChargeService.charge(ChargeService.java:88)
+2026-11-20 11:20:37.778 [http-nio-8080-exec-4] ERROR c.s.payment.ChargeService - Charge failed for order=455662: could not acquire DB connection
+2026-11-20 11:20:52.831 [http-nio-8080-exec-7] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection is not available, request timed out after 5000ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 5000ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.shop.payment.ChargeService.charge(ChargeService.java:88)
+2026-11-20 11:20:56.375 [http-nio-8080-exec-3] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection is not available, request timed out after 5000ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 5000ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.shop.payment.ChargeService.charge(ChargeService.java:88)
+2026-11-20 11:21:06.345 [http-nio-8080-exec-8] ERROR c.s.payment.ChargeService - Charge failed for order=827082: could not acquire DB connection
+2026-11-20 11:22:35.099 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=490968 amount=126.36
+2026-11-20 11:22:42.278 [http-nio-8080-exec-1] ERROR c.s.payment.ChargeService - Charge failed for order=430367: could not acquire DB connection
+2026-11-20 11:22:42.980 [http-nio-8080-exec-4] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection is not available, request timed out after 5000ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 5000ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.shop.payment.ChargeService.charge(ChargeService.java:88)
+2026-11-20 11:22:43.747 [http-nio-8080-exec-2] ERROR c.s.payment.ChargeService - Charge failed for order=976779: could not acquire DB connection
+2026-11-20 11:22:59.077 [http-nio-8080-exec-6] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection is not available, request timed out after 5000ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 5000ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.shop.payment.ChargeService.charge(ChargeService.java:88)
+2026-11-20 11:23:02.475 [http-nio-8080-exec-1] WARN  com.zaxxer.hikari.pool.ProxyLeakTask - Connection leak detection triggered for org.postgresql.jdbc.PgConnection@3761d49a, stack trace follows
+2026-11-20 11:23:06.139 [http-nio-8080-exec-3] ERROR c.s.payment.ChargeService - Charge failed for order=538386: could not acquire DB connection
+2026-11-20 11:23:19.796 [http-nio-8080-exec-6] INFO  c.s.payment.ChargeService - Charge authorized for order=483360 amount=15.81
+2026-11-20 11:23:30.837 [http-nio-8080-exec-2] ERROR c.s.payment.ChargeService - Charge failed for order=340377: could not acquire DB connection
+2026-11-20 11:23:39.496 [http-nio-8080-exec-7] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection is not available, request timed out after 5000ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 5000ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.shop.payment.ChargeService.charge(ChargeService.java:88)
+2026-11-20 11:23:41.649 [http-nio-8080-exec-3] ERROR c.s.payment.ChargeService - Charge failed for order=953393: could not acquire DB connection
+2026-11-20 11:23:47.419 [http-nio-8080-exec-7] ERROR c.s.payment.ChargeService - Charge failed for order=186482: could not acquire DB connection
+2026-11-20 11:23:47.668 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=313799 amount=224.68
+2026-11-20 11:24:03.341 [http-nio-8080-exec-6] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection is not available, request timed out after 5000ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 5000ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.shop.payment.ChargeService.charge(ChargeService.java:88)
+2026-11-20 11:24:18.030 [http-nio-8080-exec-4] ERROR c.s.payment.ChargeService - Charge failed for order=353773: could not acquire DB connection
+2026-11-20 11:24:28.048 [http-nio-8080-exec-2] ERROR c.s.payment.ChargeService - Charge failed for order=750793: could not acquire DB connection
+2026-11-20 11:24:29.628 [http-nio-8080-exec-7] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection is not available, request timed out after 5000ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 5000ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.shop.payment.ChargeService.charge(ChargeService.java:88)
+2026-11-20 11:24:34.827 [http-nio-8080-exec-6] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection is not available, request timed out after 5000ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 5000ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.shop.payment.ChargeService.charge(ChargeService.java:88)
+2026-11-20 11:24:51.283 [http-nio-8080-exec-4] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=20, idle=0, waiting=4)
+2026-11-20 11:25:03.268 [http-nio-8080-exec-3] WARN  com.zaxxer.hikari.pool.ProxyLeakTask - Connection leak detection triggered for org.postgresql.jdbc.PgConnection@efeb66b1, stack trace follows
+2026-11-20 11:25:11.809 [http-nio-8080-exec-1] WARN  com.zaxxer.hikari.pool.ProxyLeakTask - Connection leak detection triggered for org.postgresql.jdbc.PgConnection@a800af25, stack trace follows
+2026-11-20 11:25:46.242 [http-nio-8080-exec-6] INFO  c.s.payment.ChargeService - Charge authorized for order=159749 amount=282.78
+2026-11-20 11:26:01.847 [http-nio-8080-exec-3] WARN  com.zaxxer.hikari.pool.ProxyLeakTask - Connection leak detection triggered for org.postgresql.jdbc.PgConnection@ffbf2d1c, stack trace follows
+2026-11-20 11:26:12.183 [http-nio-8080-exec-7] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=20, active=20, idle=0, waiting=9)
+2026-11-20 11:26:15.119 [http-nio-8080-exec-8] ERROR c.s.payment.ChargeService - Charge failed for order=693198: could not acquire DB connection
+2026-11-20 11:26:15.688 [http-nio-8080-exec-5] WARN  c.s.payment.ChargeService - Retrying idempotent charge for order=999480 (attempt 2)
+2026-11-20 11:26:28.867 [http-nio-8080-exec-3] WARN  com.zaxxer.hikari.pool.ProxyLeakTask - Connection leak detection triggered for org.postgresql.jdbc.PgConnection@e7f1b5e3, stack trace follows
+2026-11-20 11:26:41.106 [http-nio-8080-exec-2] WARN  com.zaxxer.hikari.pool.ProxyLeakTask - Connection leak detection triggered for org.postgresql.jdbc.PgConnection@f9563587, stack trace follows
+2026-11-20 11:26:42.990 [http-nio-8080-exec-3] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection is not available, request timed out after 5000ms.
+java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 5000ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.shop.payment.ChargeService.charge(ChargeService.java:88)
+2026-11-20 11:26:43.922 [http-nio-8080-exec-5] WARN  c.s.payment.ChargeService - Retrying idempotent charge for order=157311 (attempt 2)
+2026-11-20 11:27:44.703 [http-nio-8080-exec-1] INFO  c.s.payment.ChargeService - Charge authorized for order=621030 amount=373.96
+2026-11-20 11:27:50.819 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=955001 amount=360.09
+2026-11-20 11:28:16.324 [http-nio-8080-exec-2] INFO  c.s.payment.ChargeService - Charge authorized for order=812953 amount=114.81
+2026-11-20 11:28:17.077 [http-nio-8080-exec-8] INFO  c.s.payment.ChargeService - Charge authorized for order=123296 amount=49.52
+2026-11-20 11:28:53.078 [http-nio-8080-exec-4] WARN  c.s.payment.ChargeService - Retrying idempotent charge for order=740023 (attempt 2)
+2026-11-20 11:29:56.586 [http-nio-8080-exec-5] INFO  c.s.payment.ChargeService - Charge authorized for order=667141 amount=293.41
+2026-11-20 11:30:44.827 [http-nio-8080-exec-4] INFO  c.s.payment.ChargeService - Charge authorized for order=251891 amount=249.35
