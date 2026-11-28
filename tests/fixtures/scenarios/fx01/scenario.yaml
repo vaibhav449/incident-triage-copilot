@@ -1,0 +1,32 @@
+# Fixture scenario fx01: db connection pool exhaustion in payment-svc, alert on gateway.
+# Synthetic, written by tests/fixtures/build_fixtures.py. Do not edit by hand.
+id: fx01
+system: faultlab
+seed: 101
+timeline: {warmup: 10m, clean: 65m, fault: 12m, recovery: 5m}
+alert: {service: gateway, offset_after_fault_start: 11m, symptom: p99 latency > 2s on /checkout}
+fault:
+  type: db_connection_pool_exhaustion
+  root_service: payment-svc
+  injector:
+    kind: pool_leak
+    params: {connections: 20}
+distractors:
+- {kind: noisy_template_burst, service: notification-svc}
+- {kind: unrelated_warning_spike, service: catalog-svc}
+# --- filled by tooling, never by hand during authoring ---
+run:
+  started_at: '2026-11-20T10:00:00Z'
+  alert_ts: '2026-11-20T11:26:00Z'
+gold:
+  root_cause:
+    service: payment-svc
+    fault_type: db_connection_pool_exhaustion
+  should_abstain: false
+  templates:
+  - 3f62f9df  # payment call failed cart_id=<*> elapsed_ms=<*> error="upstream returned <*>"
+  - 4e6fc327  # HikariPool-<*> - Connection is not available, request timed out after <*>.
+  - 7381b3de  # Connection leak detection triggered for org.postgresql.jdbc.PgConnection@<*>, stack trace follows
+  - fe366ab7  # Charge failed for order=<*>: could not acquire DB connection
+  runbook_steps: []
+split: null

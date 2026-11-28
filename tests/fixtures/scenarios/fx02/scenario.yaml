@@ -1,0 +1,22 @@
+# Fixture scenario fx02: no fault: latency blip on normal load (false alarm, should abstain).
+# Synthetic, written by tests/fixtures/build_fixtures.py. Do not edit by hand.
+id: fx02
+system: faultlab
+seed: 202
+timeline: {warmup: 10m, clean: 65m, fault: 12m, recovery: 5m}
+alert: {service: gateway, offset_after_fault_start: 11m, symptom: p99 latency > 2s on /catalog/items}
+fault: null
+distractors:
+- {kind: unrelated_warning_spike, service: auth-svc}
+# --- filled by tooling, never by hand during authoring ---
+run:
+  started_at: '2026-11-20T10:00:00Z'
+  alert_ts: '2026-11-20T11:26:00Z'
+gold:
+  root_cause:
+    service: null
+    fault_type: unknown
+  should_abstain: true
+  templates: []
+  runbook_steps: []
+split: null

@@ -1,0 +1,229 @@
+2026-11-20 10:00:29,570 INFO notify.queue: Queued notification order=445920 channel=email
+2026-11-20 10:00:44,070 INFO notify.queue: Queued notification order=535893 channel=email
+2026-11-20 10:02:27,810 INFO notify.queue: Queued notification order=366834 channel=email
+2026-11-20 10:03:05,623 WARNING notify.queue: Retry scheduled for notification id=99771 in 30s
+2026-11-20 10:03:13,482 INFO notify.queue: Queued notification order=157066 channel=email
+2026-11-20 10:03:18,108 INFO notify.queue: Queued notification order=596462 channel=email
+2026-11-20 10:03:31,022 INFO notify.queue: Queued notification order=708199 channel=email
+2026-11-20 10:03:46,302 INFO notify.queue: Queued notification order=594121 channel=email
+2026-11-20 10:04:37,523 INFO notify.queue: Queued notification order=567738 channel=email
+2026-11-20 10:04:44,006 ERROR notify.smtp: Failed to deliver email to user_id=4330: SMTP 451 temporary failure
+2026-11-20 10:04:49,577 INFO notify.queue: Queued notification order=604210 channel=email
+2026-11-20 10:04:56,981 ERROR notify.smtp: Failed to deliver email to user_id=2623: SMTP 451 temporary failure
+2026-11-20 10:05:03,726 ERROR notify.smtp: Failed to deliver email to user_id=2528: SMTP 451 temporary failure
+2026-11-20 10:05:16,934 ERROR notify.smtp: Failed to deliver email to user_id=5608: SMTP 451 temporary failure
+2026-11-20 10:05:22,448 ERROR notify.smtp: Failed to deliver email to user_id=8050: SMTP 451 temporary failure
+2026-11-20 10:05:28,168 ERROR notify.smtp: Failed to deliver email to user_id=4155: SMTP 451 temporary failure
+2026-11-20 10:05:30,359 ERROR notify.smtp: Failed to deliver email to user_id=1907: SMTP 451 temporary failure
+2026-11-20 10:05:40,444 ERROR notify.smtp: Failed to deliver email to user_id=7950: SMTP 451 temporary failure
+2026-11-20 10:05:40,971 INFO notify.queue: Queued notification order=878972 channel=email
+2026-11-20 10:05:57,457 INFO notify.queue: Queued notification order=994319 channel=email
+2026-11-20 10:06:34,163 WARNING notify.queue: Retry scheduled for notification id=88274 in 30s
+2026-11-20 10:07:02,743 INFO notify.queue: Queued notification order=344902 channel=email
+2026-11-20 10:07:43,202 ERROR notify.smtp: Failed to deliver email to user_id=9580: SMTP 451 temporary failure
+2026-11-20 10:08:13,458 ERROR notify.smtp: Failed to deliver email to user_id=3840: SMTP 451 temporary failure
+2026-11-20 10:08:55,592 WARNING notify.queue: Retry scheduled for notification id=91303 in 30s
+2026-11-20 10:09:07,900 WARNING notify.queue: Retry scheduled for notification id=88822 in 30s
+2026-11-20 10:09:30,959 INFO notify.queue: Queued notification order=136797 channel=email
+2026-11-20 10:09:31,912 INFO notify.queue: Queued notification order=779916 channel=email
+2026-11-20 10:09:39,852 INFO notify.queue: Queued notification order=860198 channel=email
+2026-11-20 10:10:21,331 WARNING notify.queue: Retry scheduled for notification id=36557 in 30s
+2026-11-20 10:10:48,828 INFO notify.queue: Queued notification order=533846 channel=email
+2026-11-20 10:12:49,341 INFO notify.queue: Queued notification order=686078 channel=email
+2026-11-20 10:12:50,910 WARNING notify.queue: Retry scheduled for notification id=62049 in 30s
+2026-11-20 10:13:16,202 INFO notify.queue: Queued notification order=559551 channel=email
+2026-11-20 10:14:10,323 WARNING notify.queue: Retry scheduled for notification id=3113 in 30s
+2026-11-20 10:14:37,808 INFO notify.queue: Queued notification order=209291 channel=email
+2026-11-20 10:15:25,765 WARNING notify.queue: Retry scheduled for notification id=43648 in 30s
+2026-11-20 10:15:30,133 WARNING notify.queue: Retry scheduled for notification id=21829 in 30s
+2026-11-20 10:15:45,507 ERROR notify.smtp: Failed to deliver email to user_id=1561: SMTP 451 temporary failure
+2026-11-20 10:16:25,563 ERROR notify.smtp: Failed to deliver email to user_id=4831: SMTP 451 temporary failure
+2026-11-20 10:16:34,442 INFO notify.queue: Queued notification order=759510 channel=email
+2026-11-20 10:16:40,912 INFO notify.queue: Queued notification order=930147 channel=email
+2026-11-20 10:17:11,667 INFO notify.queue: Queued notification order=142199 channel=email
+2026-11-20 10:17:18,096 ERROR notify.smtp: Failed to deliver email to user_id=2537: SMTP 451 temporary failure
+2026-11-20 10:18:01,161 INFO notify.queue: Queued notification order=528001 channel=email
+2026-11-20 10:18:26,531 WARNING notify.queue: Retry scheduled for notification id=39787 in 30s
+2026-11-20 10:18:43,536 INFO notify.queue: Queued notification order=148929 channel=email
+2026-11-20 10:19:23,977 WARNING notify.queue: Retry scheduled for notification id=70589 in 30s
+2026-11-20 10:20:04,622 ERROR notify.smtp: Failed to deliver email to user_id=3544: SMTP 451 temporary failure
+2026-11-20 10:20:08,446 INFO notify.queue: Queued notification order=492802 channel=email
+2026-11-20 10:20:53,615 ERROR notify.smtp: Failed to deliver email to user_id=7940: SMTP 451 temporary failure
+2026-11-20 10:22:57,480 ERROR notify.smtp: Failed to deliver email to user_id=8105: SMTP 451 temporary failure
+2026-11-20 10:24:02,201 ERROR notify.smtp: Failed to deliver email to user_id=2243: SMTP 451 temporary failure
+2026-11-20 10:24:04,977 INFO notify.queue: Queued notification order=403217 channel=email
+2026-11-20 10:24:16,719 WARNING notify.queue: Retry scheduled for notification id=19633 in 30s
+2026-11-20 10:24:34,763 INFO notify.queue: Queued notification order=135462 channel=email
+2026-11-20 10:24:55,325 ERROR notify.smtp: Failed to deliver email to user_id=5654: SMTP 451 temporary failure
+2026-11-20 10:25:09,671 ERROR notify.smtp: Failed to deliver email to user_id=1818: SMTP 451 temporary failure
+2026-11-20 10:26:23,814 INFO notify.queue: Queued notification order=153605 channel=email
+2026-11-20 10:26:23,944 WARNING notify.queue: Retry scheduled for notification id=75613 in 30s
+2026-11-20 10:26:40,526 INFO notify.queue: Queued notification order=137337 channel=email
+2026-11-20 10:27:12,846 ERROR notify.smtp: Failed to deliver email to user_id=6969: SMTP 451 temporary failure
+2026-11-20 10:27:30,620 ERROR notify.smtp: Failed to deliver email to user_id=4208: SMTP 451 temporary failure
+2026-11-20 10:28:06,866 WARNING notify.queue: Retry scheduled for notification id=64435 in 30s
+2026-11-20 10:28:56,409 INFO notify.queue: Queued notification order=845060 channel=email
+2026-11-20 10:29:59,035 ERROR notify.smtp: Failed to deliver email to user_id=7699: SMTP 451 temporary failure
+2026-11-20 10:30:12,260 INFO notify.queue: Queued notification order=629358 channel=email
+2026-11-20 10:30:34,569 WARNING notify.queue: Retry scheduled for notification id=20052 in 30s
+2026-11-20 10:31:03,503 INFO notify.queue: Queued notification order=696766 channel=email
+2026-11-20 10:31:31,359 ERROR notify.smtp: Failed to deliver email to user_id=7296: SMTP 451 temporary failure
+2026-11-20 10:32:28,488 ERROR notify.smtp: Failed to deliver email to user_id=3376: SMTP 451 temporary failure
+2026-11-20 10:33:06,008 INFO notify.queue: Queued notification order=829649 channel=email
+2026-11-20 10:33:42,452 INFO notify.queue: Queued notification order=921232 channel=email
+2026-11-20 10:34:11,777 INFO notify.queue: Queued notification order=691727 channel=email
+2026-11-20 10:34:37,213 ERROR notify.smtp: Failed to deliver email to user_id=2064: SMTP 451 temporary failure
+2026-11-20 10:34:58,061 WARNING notify.queue: Retry scheduled for notification id=6121 in 30s
+2026-11-20 10:35:09,631 WARNING notify.queue: Retry scheduled for notification id=98269 in 30s
+2026-11-20 10:35:10,944 ERROR notify.smtp: Failed to deliver email to user_id=1956: SMTP 451 temporary failure
+2026-11-20 10:35:17,254 WARNING notify.queue: Retry scheduled for notification id=66598 in 30s
+2026-11-20 10:35:50,533 WARNING notify.queue: Retry scheduled for notification id=15037 in 30s
+2026-11-20 10:35:51,714 WARNING notify.queue: Retry scheduled for notification id=81800 in 30s
+2026-11-20 10:36:11,704 INFO notify.queue: Queued notification order=309950 channel=email
+2026-11-20 10:36:17,787 INFO notify.queue: Queued notification order=306410 channel=email
+2026-11-20 10:36:53,203 INFO notify.queue: Queued notification order=711408 channel=email
+2026-11-20 10:36:56,415 ERROR notify.smtp: Failed to deliver email to user_id=5231: SMTP 451 temporary failure
+2026-11-20 10:37:06,646 ERROR notify.smtp: Failed to deliver email to user_id=1866: SMTP 451 temporary failure
+2026-11-20 10:37:40,394 INFO notify.queue: Queued notification order=741390 channel=email
+2026-11-20 10:37:52,843 INFO notify.queue: Queued notification order=555543 channel=email
+2026-11-20 10:38:19,235 INFO notify.queue: Queued notification order=490858 channel=email
+2026-11-20 10:38:28,041 WARNING notify.queue: Retry scheduled for notification id=55520 in 30s
+2026-11-20 10:39:04,144 ERROR notify.smtp: Failed to deliver email to user_id=6007: SMTP 451 temporary failure
+2026-11-20 10:39:09,390 INFO notify.queue: Queued notification order=879341 channel=email
+2026-11-20 10:39:35,242 ERROR notify.smtp: Failed to deliver email to user_id=6503: SMTP 451 temporary failure
+2026-11-20 10:39:39,635 ERROR notify.smtp: Failed to deliver email to user_id=6152: SMTP 451 temporary failure
+2026-11-20 10:40:00,040 INFO notify.queue: Queued notification order=448544 channel=email
+2026-11-20 10:40:36,144 ERROR notify.smtp: Failed to deliver email to user_id=2869: SMTP 451 temporary failure
+2026-11-20 10:40:49,932 INFO notify.queue: Queued notification order=794128 channel=email
+2026-11-20 10:41:09,546 ERROR notify.smtp: Failed to deliver email to user_id=7630: SMTP 451 temporary failure
+2026-11-20 10:41:24,805 ERROR notify.smtp: Failed to deliver email to user_id=9078: SMTP 451 temporary failure
+2026-11-20 10:41:49,303 INFO notify.queue: Queued notification order=190025 channel=email
+2026-11-20 10:41:56,861 ERROR notify.smtp: Failed to deliver email to user_id=4349: SMTP 451 temporary failure
+2026-11-20 10:42:11,181 INFO notify.queue: Queued notification order=280341 channel=email
+2026-11-20 10:43:01,318 INFO notify.queue: Queued notification order=519856 channel=email
+2026-11-20 10:43:14,869 INFO notify.queue: Queued notification order=516597 channel=email
+2026-11-20 10:43:41,065 INFO notify.queue: Queued notification order=679046 channel=email
+2026-11-20 10:43:46,161 INFO notify.queue: Queued notification order=985087 channel=email
+2026-11-20 10:44:19,647 WARNING notify.queue: Retry scheduled for notification id=43606 in 30s
+2026-11-20 10:45:41,974 INFO notify.queue: Queued notification order=285394 channel=email
+2026-11-20 10:46:32,406 INFO notify.queue: Queued notification order=857632 channel=email
+2026-11-20 10:47:24,096 INFO notify.queue: Queued notification order=673577 channel=email
+2026-11-20 10:47:29,879 INFO notify.queue: Queued notification order=479417 channel=email
+2026-11-20 10:48:06,442 ERROR notify.smtp: Failed to deliver email to user_id=5074: SMTP 451 temporary failure
+2026-11-20 10:48:16,566 ERROR notify.smtp: Failed to deliver email to user_id=3681: SMTP 451 temporary failure
+2026-11-20 10:48:29,167 WARNING notify.queue: Retry scheduled for notification id=84245 in 30s
+2026-11-20 10:48:34,632 ERROR notify.smtp: Failed to deliver email to user_id=1564: SMTP 451 temporary failure
+2026-11-20 10:48:42,103 INFO notify.queue: Queued notification order=502554 channel=email
+2026-11-20 10:49:32,378 WARNING notify.queue: Retry scheduled for notification id=63872 in 30s
+2026-11-20 10:50:19,597 ERROR notify.smtp: Failed to deliver email to user_id=7731: SMTP 451 temporary failure
+2026-11-20 10:50:48,386 ERROR notify.smtp: Failed to deliver email to user_id=9803: SMTP 451 temporary failure
+2026-11-20 10:50:54,036 INFO notify.queue: Queued notification order=730394 channel=email
+2026-11-20 10:52:44,877 INFO notify.queue: Queued notification order=458393 channel=email
+2026-11-20 10:53:13,656 ERROR notify.smtp: Failed to deliver email to user_id=8689: SMTP 451 temporary failure
+2026-11-20 10:53:21,036 INFO notify.queue: Queued notification order=393835 channel=email
+2026-11-20 10:53:25,417 INFO notify.queue: Queued notification order=607804 channel=email
+2026-11-20 10:54:06,564 ERROR notify.smtp: Failed to deliver email to user_id=2112: SMTP 451 temporary failure
+2026-11-20 10:54:11,713 INFO notify.queue: Queued notification order=636500 channel=email
+2026-11-20 10:54:18,491 ERROR notify.smtp: Failed to deliver email to user_id=3205: SMTP 451 temporary failure
+2026-11-20 10:54:46,970 INFO notify.queue: Queued notification order=577999 channel=email
+2026-11-20 10:54:53,127 WARNING notify.queue: Retry scheduled for notification id=65924 in 30s
+2026-11-20 10:55:06,303 WARNING notify.queue: Retry scheduled for notification id=99699 in 30s
+2026-11-20 10:55:14,826 ERROR notify.smtp: Failed to deliver email to user_id=8094: SMTP 451 temporary failure
+2026-11-20 10:55:24,250 INFO notify.queue: Queued notification order=998204 channel=email
+2026-11-20 10:55:25,815 INFO notify.queue: Queued notification order=162474 channel=email
+2026-11-20 10:55:35,419 INFO notify.queue: Queued notification order=796392 channel=email
+2026-11-20 10:56:03,791 INFO notify.queue: Queued notification order=740150 channel=email
+2026-11-20 10:56:27,409 INFO notify.queue: Queued notification order=245622 channel=email
+2026-11-20 10:56:34,403 INFO notify.queue: Queued notification order=271170 channel=email
+2026-11-20 10:57:12,264 ERROR notify.smtp: Failed to deliver email to user_id=1620: SMTP 451 temporary failure
+2026-11-20 10:57:15,537 WARNING notify.queue: Retry scheduled for notification id=61593 in 30s
+2026-11-20 10:57:57,742 ERROR notify.smtp: Failed to deliver email to user_id=3419: SMTP 451 temporary failure
+2026-11-20 10:59:00,581 INFO notify.queue: Queued notification order=956332 channel=email
+2026-11-20 10:59:50,072 INFO notify.queue: Queued notification order=833470 channel=email
+2026-11-20 11:00:12,244 INFO notify.queue: Queued notification order=501965 channel=email
+2026-11-20 11:00:46,918 INFO notify.queue: Queued notification order=555502 channel=email
+2026-11-20 11:01:39,131 INFO notify.queue: Queued notification order=421599 channel=email
+2026-11-20 11:01:42,418 WARNING notify.queue: Retry scheduled for notification id=3761 in 30s
+2026-11-20 11:01:55,221 ERROR notify.smtp: Failed to deliver email to user_id=5766: SMTP 451 temporary failure
+2026-11-20 11:01:56,823 ERROR notify.smtp: Failed to deliver email to user_id=3847: SMTP 451 temporary failure
+2026-11-20 11:02:00,717 ERROR notify.smtp: Failed to deliver email to user_id=7501: SMTP 451 temporary failure
+2026-11-20 11:03:29,619 WARNING notify.queue: Retry scheduled for notification id=85499 in 30s
+2026-11-20 11:03:40,205 ERROR notify.smtp: Failed to deliver email to user_id=9317: SMTP 451 temporary failure
+2026-11-20 11:03:54,757 WARNING notify.queue: Retry scheduled for notification id=96996 in 30s
+2026-11-20 11:05:07,082 INFO notify.queue: Queued notification order=558930 channel=email
+2026-11-20 11:05:24,495 ERROR notify.smtp: Failed to deliver email to user_id=2114: SMTP 451 temporary failure
+2026-11-20 11:05:24,748 ERROR notify.smtp: Failed to deliver email to user_id=4515: SMTP 451 temporary failure
+2026-11-20 11:06:03,157 ERROR notify.smtp: Failed to deliver email to user_id=2393: SMTP 451 temporary failure
+2026-11-20 11:06:07,701 INFO notify.queue: Queued notification order=293285 channel=email
+2026-11-20 11:06:19,453 ERROR notify.smtp: Failed to deliver email to user_id=2314: SMTP 451 temporary failure
+2026-11-20 11:06:19,854 INFO notify.queue: Queued notification order=714780 channel=email
+2026-11-20 11:06:39,700 WARNING notify.queue: Retry scheduled for notification id=30507 in 30s
+2026-11-20 11:07:25,272 ERROR notify.smtp: Failed to deliver email to user_id=7615: SMTP 451 temporary failure
+2026-11-20 11:07:52,507 INFO notify.queue: Queued notification order=743855 channel=email
+2026-11-20 11:08:02,971 INFO notify.queue: Queued notification order=165851 channel=email
+2026-11-20 11:08:25,007 INFO notify.queue: Queued notification order=671151 channel=email
+2026-11-20 11:08:47,326 ERROR notify.smtp: Failed to deliver email to user_id=1603: SMTP 451 temporary failure
+2026-11-20 11:08:49,408 INFO notify.queue: Queued notification order=702308 channel=email
+2026-11-20 11:09:15,678 INFO notify.queue: Queued notification order=740043 channel=email
+2026-11-20 11:10:10,299 INFO notify.queue: Queued notification order=194709 channel=email
+2026-11-20 11:12:05,954 INFO notify.queue: Queued notification order=605804 channel=email
+2026-11-20 11:12:33,387 ERROR notify.smtp: Failed to deliver email to user_id=7220: SMTP 451 temporary failure
+2026-11-20 11:13:34,450 INFO notify.queue: Queued notification order=516385 channel=email
+2026-11-20 11:13:47,432 ERROR notify.smtp: Failed to deliver email to user_id=5813: SMTP 451 temporary failure
+2026-11-20 11:13:51,141 ERROR notify.smtp: Failed to deliver email to user_id=3503: SMTP 451 temporary failure
+2026-11-20 11:14:00,281 ERROR notify.smtp: Failed to deliver email to user_id=6234: SMTP 451 temporary failure
+2026-11-20 11:14:03,764 ERROR notify.smtp: Failed to deliver email to user_id=8798: SMTP 451 temporary failure
+2026-11-20 11:14:34,175 INFO notify.queue: Queued notification order=150115 channel=email
+2026-11-20 11:14:55,124 ERROR notify.smtp: Failed to deliver email to user_id=5845: SMTP 451 temporary failure
+2026-11-20 11:15:50,992 WARNING notify.queue: Retry scheduled for notification id=99026 in 30s
+2026-11-20 11:16:45,659 INFO notify.queue: Queued notification order=981813 channel=email
+2026-11-20 11:18:47,578 ERROR notify.smtp: Failed to deliver email to user_id=8925: SMTP 451 temporary failure
+2026-11-20 11:19:39,466 WARNING notify.queue: Retry scheduled for notification id=76975 in 30s
+2026-11-20 11:20:28,100 INFO notify.queue: Queued notification order=559536 channel=email
+2026-11-20 11:20:48,967 ERROR notify.smtp: SMTP relay rate-limited, dropping batch of 24 notifications
+2026-11-20 11:20:50,071 ERROR notify.smtp: SMTP relay rate-limited, dropping batch of 39 notifications
+2026-11-20 11:21:02,927 ERROR notify.smtp: SMTP relay rate-limited, dropping batch of 17 notifications
+2026-11-20 11:21:02,979 INFO notify.queue: Queued notification order=665500 channel=email
+2026-11-20 11:21:17,716 ERROR notify.smtp: SMTP relay rate-limited, dropping batch of 37 notifications
+2026-11-20 11:21:28,824 ERROR notify.smtp: Failed to deliver email to user_id=5529: SMTP 451 temporary failure
+2026-11-20 11:21:30,798 ERROR notify.smtp: SMTP relay rate-limited, dropping batch of 6 notifications
+2026-11-20 11:21:39,625 INFO notify.queue: Queued notification order=973338 channel=email
+2026-11-20 11:21:53,177 ERROR notify.smtp: SMTP relay rate-limited, dropping batch of 11 notifications
+2026-11-20 11:21:54,815 ERROR notify.smtp: SMTP relay rate-limited, dropping batch of 27 notifications
+2026-11-20 11:21:58,535 ERROR notify.smtp: SMTP relay rate-limited, dropping batch of 21 notifications
+2026-11-20 11:22:01,551 ERROR notify.smtp: SMTP relay rate-limited, dropping batch of 8 notifications
+2026-11-20 11:22:06,759 ERROR notify.smtp: SMTP relay rate-limited, dropping batch of 17 notifications
+2026-11-20 11:22:08,737 ERROR notify.smtp: SMTP relay rate-limited, dropping batch of 19 notifications
+2026-11-20 11:22:21,471 INFO notify.queue: Queued notification order=460583 channel=email
+2026-11-20 11:22:48,821 ERROR notify.smtp: SMTP relay rate-limited, dropping batch of 38 notifications
+2026-11-20 11:22:52,898 INFO notify.queue: Queued notification order=821055 channel=email
+2026-11-20 11:22:56,791 ERROR notify.smtp: SMTP relay rate-limited, dropping batch of 30 notifications
+2026-11-20 11:22:56,979 WARNING notify.queue: Retry scheduled for notification id=17908 in 30s
+2026-11-20 11:23:02,508 ERROR notify.smtp: SMTP relay rate-limited, dropping batch of 34 notifications
+2026-11-20 11:23:09,793 ERROR notify.smtp: SMTP relay rate-limited, dropping batch of 10 notifications
+2026-11-20 11:23:26,732 ERROR notify.smtp: SMTP relay rate-limited, dropping batch of 28 notifications
+2026-11-20 11:23:58,983 ERROR notify.smtp: SMTP relay rate-limited, dropping batch of 28 notifications
+2026-11-20 11:24:06,198 INFO notify.queue: Queued notification order=688758 channel=email
+2026-11-20 11:24:07,111 ERROR notify.smtp: Failed to deliver email to user_id=5065: SMTP 451 temporary failure
+2026-11-20 11:24:16,120 ERROR notify.smtp: Failed to deliver email to user_id=8632: SMTP 451 temporary failure
+2026-11-20 11:24:30,745 WARNING notify.queue: Retry scheduled for notification id=18260 in 30s
+2026-11-20 11:24:51,632 INFO notify.queue: Queued notification order=158100 channel=email
+2026-11-20 11:25:23,953 INFO notify.queue: Queued notification order=472617 channel=email
+2026-11-20 11:26:05,023 ERROR notify.smtp: Failed to deliver email to user_id=2632: SMTP 451 temporary failure
+2026-11-20 11:26:20,643 WARNING notify.queue: Retry scheduled for notification id=44999 in 30s
+2026-11-20 11:26:52,452 INFO notify.queue: Queued notification order=832339 channel=email
+2026-11-20 11:27:57,225 WARNING notify.queue: Retry scheduled for notification id=91820 in 30s
+2026-11-20 11:27:59,010 ERROR notify.smtp: Failed to deliver email to user_id=8892: SMTP 451 temporary failure
+2026-11-20 11:28:21,290 ERROR notify.smtp: Failed to deliver email to user_id=7056: SMTP 451 temporary failure
+2026-11-20 11:28:47,745 INFO notify.queue: Queued notification order=588173 channel=email
+2026-11-20 11:28:51,903 ERROR notify.smtp: Failed to deliver email to user_id=5363: SMTP 451 temporary failure
+2026-11-20 11:28:51,964 ERROR notify.smtp: Failed to deliver email to user_id=6617: SMTP 451 temporary failure
+2026-11-20 11:29:09,222 ERROR notify.smtp: Failed to deliver email to user_id=9180: SMTP 451 temporary failure
+2026-11-20 11:29:13,823 ERROR notify.smtp: Failed to deliver email to user_id=9630: SMTP 451 temporary failure
+2026-11-20 11:29:38,080 INFO notify.queue: Queued notification order=602997 channel=email
+2026-11-20 11:29:38,151 INFO notify.queue: Queued notification order=758108 channel=email
+2026-11-20 11:29:45,790 ERROR notify.smtp: Failed to deliver email to user_id=4859: SMTP 451 temporary failure
+2026-11-20 11:30:07,102 INFO notify.queue: Queued notification order=274050 channel=email
+2026-11-20 11:30:21,624 ERROR notify.smtp: Failed to deliver email to user_id=3700: SMTP 451 temporary failure
+2026-11-20 11:31:35,076 INFO notify.queue: Queued notification order=374499 channel=email
+2026-11-20 11:31:56,249 INFO notify.queue: Queued notification order=426172 channel=email
